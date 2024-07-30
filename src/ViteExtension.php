@@ -5,7 +5,7 @@ namespace Hollow3464\TwigViteExtension;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
-final class ViteTwigExtension extends AbstractExtension
+final class ViteExtension extends AbstractExtension
 {
     public function __construct(
         private readonly ViteHelper $viteHelper
