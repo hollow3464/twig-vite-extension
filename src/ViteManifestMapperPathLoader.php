@@ -6,7 +6,7 @@ namespace Hollow3464\TwigViteExtension;
 
 use CuyZ\Valinor\MapperBuilder;
 
-final class ViteManifestFileLoader implements ViteManifestLoaderInterface
+final class ViteManifestMapperPathLoader implements ViteManifestLoaderInterface
 {
     /**
      * {@inheritdoc}

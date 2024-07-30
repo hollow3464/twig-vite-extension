@@ -7,7 +7,7 @@ namespace Hollow3464\TwigViteExtension;
 use CuyZ\Valinor\MapperBuilder;
 use League\Flysystem\Filesystem;
 
-final class ViteManifestFileLoader implements ViteManifestLoaderInterface
+final class ViteManifestMapperFlysystemLoader implements ViteManifestLoaderInterface
 {
     public function __construct(private Filesystem $storage) {}
 
